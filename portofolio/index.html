@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achsony | Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Achsony, Web Developer">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">SNY</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero section-spacing">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <p class="greeting">Hi, my name is</p>
+                    <h1 class="name">Muhammad Ainur Rofal Achsony</h1>
+                    <h2 class="role">Informatics Engineering Student | Web Developer</h2>
+                    <p class="tagline">Building simple web solutions for real problems.</p>
+                    <a href="#about" class="btn btn-primary">Discover More</a>
+                </div>
+                <div class="hero-image reveal delay-1">
+                    <div class="image-wrapper">
+                        <img src="assets/profile_saya.png" alt="Jokes Nisha Profile"
+                            onerror="this.src='https://placehold.co/400x400/1e293b/38bdf8?text=JN'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-spacing">
+            <div class="container">
+                <h2 class="section-title reveal">About</h2>
+                <div class="about-content reveal">
+                    <p>Focused on web development with experience in building static websites using <span>HTML, CSS, and
+                            JavaScript.</span>
+                        Familiar with Git for version control and Python as a supporting language.
+                        Currently exploring Artificial Intelligence while continuing to improve web development
+                        fundamentals through academic study, self learning, and practical projects. Interested in
+                        creating simple, efficient, and user friendly web solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-spacing">
+            <div class="container">
+                <h2 class="section-title reveal">My Skills</h2>
+                <div class="skills-grid reveal delay-1">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-pen-nib"></i>
+                        <span>UI Design</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Problem Solving</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-spacing">
+            <div class="container">
+                <h2 class="section-title reveal">Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <a href="#" target="_blank" class="project-card reveal">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400/1e293b/38bdf8?text=Project+Preview"
+                                alt="EcoHub Website Preview">
+                        </div>
+                        <div class="project-content">
+                            <h3>EcoHub Website</h3>
+                            <p>A static website concept for an eco community marketplace.</p>
+                        </div>
+                    </a>
+                    <!-- Project 2 -->
+                    <a href="https://rofal-gg.github.io/AgriFlow/" target="_blank" class="project-card reveal delay-1">
+                        <div class="project-image">
+                            <img src="assets/preview_agriflow.png" alt="Agriflow Concept Preview">
+                        </div>
+                        <div class="project-content">
+                            <h3>Agriflow Concept</h3>
+                            <h4>click to try the demo</h4>
+                            <p>A digital platform concept that improves agricultural product distribution by connecting
+                                farmers, distributors, and buyers. This project was developed as a hackathon idea.</p>
+                        </div>
+                    </a>
+                    <!-- Project 3 -->
+                    <a href="#" target="_blank" class="project-card reveal delay-2">
+                        <div class="project-image">
+                            <img src="assets/preview_portofolio.png" alt="Personal Portfolio Preview">
+                        </div>
+                        <div class="project-content">
+                            <h3>Personal Portfolio</h3>
+                            <h4>click to see</h4>
+                            <p>A minimalist developer portfolio website.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-spacing">
+            <div class="container">
+                <h2 class="section-title reveal">Get In Touch</h2>
+                <p class="contact-desc reveal">I'm always open to discussing new projects, creative ideas, or
+                    opportunities to be part of your visions.</p>
+                <div class="contact-methods reveal delay-1">
+                    <a href="mailto:achsony07@gmail.com" class="contact-btn">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                    <a href="https://github.com/rofal-gg" target="_blank" class="contact-btn">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Muhammad Ainur Rofal Achsony</p>
+            <div class="footer-socials">
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Codepen"><i class="fab fa-codepen"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
